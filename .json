@@ -1,0 +1,71 @@
+{
+  "books": [
+    { "id": 1, "name": "JavaScript Basics", "author": "John Doe", "available": false },
+    { "id": 2, "name": "Advanced Java", "author": "James Gosling", "available": true },
+    { "id": 3, "name": "Data Structures", "author": "Mark Allen", "available": false },
+    { "id": 4, "name": "Algorithms Made Easy", "author": "Narayan", "available": true },
+    { "id": 5, "name": "Operating Systems", "author": "Galvin", "available": true },
+    { "id": 6, "name": "Computer Networks", "author": "Tanenbaum", "available": false },
+    { "id": 7, "name": "DBMS Concepts", "author": "Korth", "available": true },
+    { "id": 8, "name": "Clean Code", "author": "Robert Martin", "available": true },
+    { "id": 9, "name": "System Design", "author": "Alex Xu", "available": false },
+    { "id": 10, "name": "Python Basics", "author": "Guido", "available": true }
+  ],
+  "users": [
+    {
+      "id": 101,
+      "name": "Raushan",
+      "issuedBooks": [1, 3]
+    },
+    {
+      "id": 102,
+      "name": "Amit",
+      "issuedBooks": []
+    },
+    {
+      "id": 103,
+      "name": "Priya",
+      "issuedBooks": [6]
+    },
+    {
+      "id": 104,
+      "name": "Neha",
+      "issuedBooks": []
+    },
+    {
+      "id": 105,
+      "name": "Rohit",
+      "issuedBooks": [9]
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T1",
+      "userId": 101,
+      "bookId": 1,
+      "type": "ISSUE",
+      "date": "2026-03-20"
+    },
+    {
+      "transactionId": "T2",
+      "userId": 101,
+      "bookId": 3,
+      "type": "ISSUE",
+      "date": "2026-03-21"
+    },
+    {
+      "transactionId": "T3",
+      "userId": 103,
+      "bookId": 6,
+      "type": "ISSUE",
+      "date": "2026-03-22"
+    },
+    {
+      "transactionId": "T4",
+      "userId": 105,
+      "bookId": 9,
+      "type": "ISSUE",
+      "date": "2026-03-23"
+    }
+  ]
+}
